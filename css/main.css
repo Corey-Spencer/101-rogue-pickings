@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+
+@font-face {
+    font-family: WisdomScript;
+    src: url(/fonts/Wisdom-Script.otf);
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+
+.third-width {
+    width: 400px;
+    float: left;
+    height: 210px;
+}
+
+/***** HEADER *****/
+
+header{
+    height: 110px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 110px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #77A466;
+}
+
+nav {
+    float: right;
+    line-height: 110px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 25px;
+    color: #77A466;
+}
+
+/***** ABOUT *****/
+img {
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
+}
+
+#about h2 {
+    font-size: 18px;
+    color: #77A466;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** ACTION *****/
+
+#action div {
+    border-top: 1px solid #DEDBDC;
+    border-bottom: 1px solid #DEDBDC;
+    box-sizing: border-box;
+}
+
+#action h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+/***** SPECIALS *****/
+
+#specials a {
+    text-decoration: none;
+    color: #77A466;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#specials ul {
+    padding: 0;
+}
+
+#specials li {
+    list-style: none;
+}
+
+/***** REVIEWS *****/
+
+#reviews {
+    border-left: 1px solid #DEDBDC;
+    border-right: 1px solid #DEDBDC;
+    padding: 0 30px;
+}
+
+#reviews p {
+    line-height: 21px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    padding: 0 30px;
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+    height: 80;
+}
+
+footer span {
+    font-family: WisdomScript;
+    color: #77A466;
+    text-transform: lowercase;
+    line-height: 80px;
+}
